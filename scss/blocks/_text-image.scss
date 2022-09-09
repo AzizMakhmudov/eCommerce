@@ -7,6 +7,9 @@
   background-size: cover;
   display: flex;
   margin-bottom: 90px;
+  @media (max-width: $desktop) {
+    width: 1200px;
+  }
 }
 
 .shop-all__btn {
@@ -36,6 +39,9 @@
   color: #ffffff;
   width: 500px;
   margin-bottom: 35px;
+  @media (max-width: $desktop) {
+    font-size: 45px;
+  }
 }
 
 .shop__all--box {
@@ -47,4 +53,7 @@
 
 .right-side {
   object-fit: cover;
+  @media (max-width: $desktop) {
+    margin-left: -100px;
+  }
 }

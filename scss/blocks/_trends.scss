@@ -23,6 +23,9 @@
   position: absolute;
   left: 570px;
   bottom: 350px;
+  @media (max-width: $desktop) {
+    left: 424px;
+  }
 }
 
 .dot-trends {
@@ -39,6 +42,9 @@
   gap: 5.44px;
   margin-top: 300px;
   margin-left: 385px;
+  @media (max-width: $desktop) {
+    margin-left: 155px;
+  }
 }
 
 .first-dot__trends {
@@ -47,4 +53,11 @@
 
 .dot-trends:hover {
   background: $primary-color-green;
+}
+
+.last-market {
+  @media (max-width: $desktop) {
+    margin-left: -60px;
+    margin-top: 5px;
+  }
 }

@@ -58,6 +58,9 @@
   display: flex;
   align-items: center;
   margin-bottom: 54px;
+  @media (max-width: $desktop) {
+    margin-left: -200px;
+  }
 }
 
 .navigation-footer__last-box {
