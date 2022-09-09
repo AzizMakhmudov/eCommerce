@@ -46,7 +46,7 @@
   text-align: right;
   @media (max-width: $tablet) {
     font-size: 30px;
-    margin-left: -50px;
+    margin-left: 50px;
   }
 }
 
@@ -57,7 +57,7 @@
   text-align: right;
   margin-left: 150px;
   @media (max-width: $tablet) {
-    margin-left: 145px;
+    margin-left: 240px;
   }
 }
 
@@ -65,7 +65,7 @@
   @include btn;
   margin-left: 250px;
   @media (max-width: $tablet) {
-    margin-left: 250px;
+    margin-left: 350px;
   }
 }
 

@@ -67,7 +67,7 @@ html {
 @media (max-width: 834px) {
   .header__link--box {
     margin-left: -156px;
-    gap: 140px;
+    gap: 222px;
   }
 }
 
@@ -368,7 +368,7 @@ html {
 @media (max-width: 834px) {
   .h2-collection {
     font-size: 30px;
-    margin-left: -50px;
+    margin-left: 50px;
   }
 }
 
@@ -385,7 +385,7 @@ html {
 }
 @media (max-width: 834px) {
   .info-collection {
-    margin-left: 145px;
+    margin-left: 240px;
   }
 }
 
@@ -404,7 +404,7 @@ html {
 }
 @media (max-width: 834px) {
   .collection-btn {
-    margin-left: 250px;
+    margin-left: 350px;
   }
 }
 
@@ -775,7 +775,7 @@ html {
 }
 @media (max-width: 834px) {
   .right-side {
-    width: 350px;
+    width: 400px;
     height: 523px;
     -o-object-fit: cover;
        object-fit: cover;
