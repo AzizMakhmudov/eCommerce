@@ -29,6 +29,10 @@
   @media (max-width: $desktop) {
     gap: 310px;
   }
+  @media (max-width: $tablet) {
+    margin-left: -156px;
+    gap: 140px;
+  }
 }
 
 .header-box {
@@ -48,5 +52,12 @@
     width: 100%;
     background-color: #fff;
     z-index: 1;
+  }
+}
+
+.img-fruits {
+  @media (max-width: $tablet) {
+    width: 291px;
+    height: 196px;
   }
 }

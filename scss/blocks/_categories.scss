@@ -6,6 +6,9 @@
   @media (max-width: $desktop) {
     padding-left: 0;
   }
+  @media (max-width: $tablet) {
+    flex-direction: column;
+  }
 }
 
 .categories-box {
@@ -20,6 +23,9 @@
   padding-top: 67px;
   cursor: pointer;
   position: relative;
+  @media (max-width: $tablet) {
+    margin-top: 46px;
+  }
 }
 
 .categories-box a {

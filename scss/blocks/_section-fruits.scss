@@ -27,6 +27,10 @@
   @media (max-width: $desktop) {
     margin-left: 0;
   }
+  @media (max-width: $tablet) {
+    width: 500px;
+    height: 500px;
+  }
 }
 
 .section-fruits {
@@ -35,9 +39,16 @@
   gap: 40px;
   margin-bottom: 77px;
   margin-top: 50px;
+  @media (max-width: $tablet) {
+    margin-top: 292px;
+  }
 }
 
 .img-fruits {
   position: absolute;
   left: -5px;
+  @media (max-width: $tablet) {
+    top: 140px;
+    left: -25px;
+  }
 }

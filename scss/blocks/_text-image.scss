@@ -10,6 +10,10 @@
   @media (max-width: $desktop) {
     width: 1200px;
   }
+  @media (max-width: $tablet) {
+    width: 834px;
+    margin-top: 100px;
+  }
 }
 
 .shop-all__btn {
@@ -42,6 +46,10 @@
   @media (max-width: $desktop) {
     font-size: 45px;
   }
+  @media (max-width: $tablet) {
+    width: 356px;
+    font-size: 38px;
+  }
 }
 
 .shop__all--box {
@@ -49,11 +57,22 @@
   padding-top: 114px;
   padding-bottom: 105px;
   padding-right: 170px;
+  @media (max-width: $tablet) {
+    padding-left: 67px;
+    padding-top: 114px;
+    padding-bottom: 105px;
+    padding-right: 115px;
+  }
 }
 
 .right-side {
   object-fit: cover;
   @media (max-width: $desktop) {
     margin-left: -100px;
+  }
+  @media (max-width: $tablet) {
+    width: 350px;
+    height: 523px;
+    object-fit: cover;
   }
 }

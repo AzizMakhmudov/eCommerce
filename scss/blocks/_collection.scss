@@ -6,6 +6,9 @@
   @media (max-width: $desktop) {
     gap: 0;
   }
+  @media (max-width: $tablet) {
+    position: relative;
+  }
 }
 
 .first-box__collection {
@@ -14,11 +17,21 @@
   width: 737px;
   height: 709px;
   background-size: contain;
+  @media (max-width: $tablet) {
+    width: 500px;
+    height: 500px;
+  }
 }
 
 .toutem-img {
   margin-top: 125px;
   margin-left: 77px;
+  @media (max-width: $tablet) {
+    width: 402px;
+    height: 356px;
+    position: absolute;
+    top: -50px;
+  }
 }
 
 .h2-collection {
@@ -31,6 +44,10 @@
   line-height: 107.9%;
   width: 573px;
   text-align: right;
+  @media (max-width: $tablet) {
+    font-size: 30px;
+    margin-left: -20px;
+  }
 }
 
 .info-collection {
@@ -39,11 +56,17 @@
   margin-bottom: 33px;
   text-align: right;
   margin-left: 150px;
+  @media (max-width: $tablet) {
+    margin-left: 175px;
+  }
 }
 
 .collection-btn {
   @include btn;
   margin-left: 250px;
+  @media (max-width: $tablet) {
+    margin-left: 280px;
+  }
 }
 
 .collection-btn:hover {

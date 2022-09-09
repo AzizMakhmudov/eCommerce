@@ -5,6 +5,11 @@
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
+  @media (max-width: $tablet) {
+    width: 350px;
+    height: 600px;
+    top: -380px;
+  }
 }
 
 .btn-bestseller {
@@ -27,6 +32,10 @@
   top: 225px;
   @media (max-width: $desktop) {
     margin-left: 50px;
+  }
+  @media (max-width: $tablet) {
+    left: 300px;
+    margin-top: -25px;
   }
 }
 
@@ -88,6 +97,13 @@
     width: 40px;
     height: 40px;
   }
+  @media (max-width: $tablet) {
+    margin-left: -100px;
+  }
+}
+
+.btn-first__diffuser {
+  margin-left: 15px;
 }
 
 .diffuser-market {
@@ -141,12 +157,20 @@
   @media (max-width: $desktop) {
     gap: 0px;
   }
+  @media (max-width: $tablet) {
+    margin-top: 425px;
+  }
 }
 
 .second_box-bestseller {
   display: flex;
   align-items: center;
   gap: 15px;
+  @media (max-width: $tablet) {
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 145px;
+  }
 }
 
 .dot-link {
@@ -168,6 +192,11 @@
   margin-left: 950px;
   margin-top: -70px;
   margin-bottom: 111px;
+  @media (max-width: $tablet) {
+    position: absolute;
+    left: -470px;
+    margin-top: 31px;
+  }
 }
 
 .dot-link:hover {

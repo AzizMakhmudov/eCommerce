@@ -4,6 +4,11 @@
   height: 850px;
   background-size: contain;
   position: relative;
+  @media (max-width: $tablet) {
+    margin-top: 377px;
+    width: 480px;
+    height: 650px;
+  }
 }
 
 .trends-section {
@@ -17,6 +22,11 @@
   position: absolute;
   top: 290px;
   left: 94px;
+  @media (max-width: $tablet) {
+    text-align: center;
+    margin-left: 77px;
+    margin-top: -140px;
+  }
 }
 
 .trends-boxes {
@@ -25,6 +35,10 @@
   bottom: 350px;
   @media (max-width: $desktop) {
     left: 424px;
+  }
+  @media (max-width: $tablet) {
+    top: 150px;
+    margin-left: -150px;
   }
 }
 
@@ -45,6 +59,11 @@
   @media (max-width: $desktop) {
     margin-left: 155px;
   }
+  @media (max-width: $tablet) {
+    position: absolute;
+    top: 700px;
+    left: 250px;
+  }
 }
 
 .first-dot__trends {
@@ -59,5 +78,31 @@
   @media (max-width: $desktop) {
     margin-left: -60px;
     margin-top: 5px;
+  }
+}
+
+.trends-first__diffuser {
+  @media (max-width: $tablet) {
+    margin-bottom: 44px;
+  }
+}
+
+.trends-first__btn {
+  @media (max-width: $tablet) {
+    position: absolute;
+    left: 315px;
+  }
+}
+
+.last-trends__market {
+  @media (max-width: $tablet) {
+    position: absolute;
+    left: 385px;
+  }
+}
+
+.trends-btn__shop {
+  @media (max-width: $tablet) {
+    padding: 12px 77px;
   }
 }
