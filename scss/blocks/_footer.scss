@@ -6,6 +6,10 @@
   position: relative;
   @media (max-width: $tablet) {
     height: 570px;
+    width: 834px;
+  }
+  @media (max-width: $desktop) {
+    width: 100%;
   }
 }
 

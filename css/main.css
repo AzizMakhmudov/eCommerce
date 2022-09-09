@@ -368,7 +368,7 @@ html {
 @media (max-width: 834px) {
   .h2-collection {
     font-size: 30px;
-    margin-left: -20px;
+    margin-left: -50px;
   }
 }
 
@@ -385,7 +385,7 @@ html {
 }
 @media (max-width: 834px) {
   .info-collection {
-    margin-left: 175px;
+    margin-left: 145px;
   }
 }
 
@@ -404,7 +404,7 @@ html {
 }
 @media (max-width: 834px) {
   .collection-btn {
-    margin-left: 280px;
+    margin-left: 250px;
   }
 }
 
@@ -658,9 +658,33 @@ html {
     margin-top: 31px;
   }
 }
+@media (max-width: 1200px) {
+  .ul-dot {
+    position: absolute;
+    left: -225px;
+  }
+}
 
 .dot-link:hover {
   background-color: #5fd788;
+}
+
+@media (max-width: 1200px) {
+  .second-btn__diffuser-desktop {
+    margin-left: -70px;
+  }
+}
+@media (max-width: 834px) {
+  .second-btn__diffuser-desktop {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 834px) {
+  .changed-dot {
+    position: absolute;
+    left: -470px;
+  }
 }
 
 .text-image__section {
@@ -991,8 +1015,7 @@ html {
 }
 @media (max-width: 1200px) {
   .title-h3__paragraph {
-    width: 200px;
-    margin-top: 10px;
+    width: 300px;
   }
 }
 @media (max-width: 834px) {
@@ -1030,6 +1053,12 @@ html {
 @media (max-width: 834px) {
   .footer {
     height: 570px;
+    width: 834px;
+  }
+}
+@media (max-width: 1200px) {
+  .footer {
+    width: 100%;
   }
 }
 

@@ -197,8 +197,28 @@
     left: -470px;
     margin-top: 31px;
   }
+  @media (max-width: $desktop) {
+    position: absolute;
+    left: -225px;
+  }
 }
 
 .dot-link:hover {
   background-color: $primary-color-green;
+}
+
+.second-btn__diffuser-desktop {
+  @media (max-width: $desktop) {
+    margin-left: -70px;    
+  }
+  @media (max-width: $tablet) {
+    margin-left: 0;
+  }
+}
+
+.changed-dot {
+  @media (max-width: $tablet) {
+    position: absolute;
+    left: -470px;
+  }
 }
