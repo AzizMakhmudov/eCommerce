@@ -1,0 +1,122 @@
+.categories-section {
+  display: flex;
+  align-items: center;
+  padding-left: 176px;
+  margin-bottom: 150px;
+  @media (max-width: $desktop) {
+    padding-left: 0;
+  }
+}
+
+.categories-box {
+  width: 273.9px;
+  height: 274px;
+  background: #f9fafb;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 20px;
+  padding-left: 94px;
+  padding-right: 94px;
+  padding-bottom: 94px;
+  padding-top: 67px;
+  cursor: pointer;
+  position: relative;
+}
+
+.categories-box a {
+  @include title-categories;
+}
+
+.categories-svg {
+  margin-bottom: 20px;
+}
+
+.first-svg {
+  position: absolute;
+  top: 68px;
+  left: 100px;
+  z-index: 1;
+}
+
+.categories-box:hover {
+  background-color: $primary-color-green;
+}
+
+.link-categories:hover {
+  color: $primary-color-white;
+}
+
+.Diffusers {
+  margin-left: 25px;
+  position: absolute;
+  top: 200px;
+}
+
+.Aromatherapy {
+  margin-left: 15px;
+  position: absolute;
+  top: 200px;
+}
+
+.blob-first {
+  position: absolute;
+  top: 80px;
+}
+
+.blob-first:hover {
+  background-color: white;
+}
+
+.first-link__categories {
+  position: absolute;
+  top: 200px;
+}
+
+.ice-cream__svg {
+  position: absolute;
+  z-index: 1;
+}
+
+.blob-ice__cream {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+}
+
+.blob-ice__cream:hover {
+  background-color: $primary-color-white;
+}
+
+.natural-cosmetics {
+  position: absolute;
+  top: 200px;
+}
+
+.Diffusers-svg {
+  position: absolute;
+  z-index: 1;
+}
+
+.blob-diffusers {
+  position: absolute;
+  top: 80px;
+  left: 110px;
+}
+
+.blob-diffusers:hover {
+  background-color: white;
+}
+
+.blob-last {
+  position: absolute;
+  top: 90px;
+  left: 110px;
+}
+
+.blob-last:hover {
+  background-color: $primary-color-white;
+}
+
+.last-categories {
+  position: absolute;
+  z-index: 1;
+}

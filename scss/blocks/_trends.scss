@@ -1,0 +1,50 @@
+.trends__first--box {
+  background-image: url(/img/flowertrends.png);
+  width: 563px;
+  height: 850px;
+  background-size: contain;
+  position: relative;
+}
+
+.trends-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 56px;
+}
+
+.text-box__trends {
+  position: absolute;
+  top: 290px;
+  left: 94px;
+}
+
+.trends-boxes {
+  position: absolute;
+  left: 570px;
+  bottom: 350px;
+}
+
+.dot-trends {
+  background: #9ca3af;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.ul-dot__trends {
+  display: flex;
+  align-items: center;
+  gap: 5.44px;
+  margin-top: 300px;
+  margin-left: 385px;
+}
+
+.first-dot__trends {
+  background-color: $primary-color-green;
+}
+
+.dot-trends:hover {
+  background: $primary-color-green;
+}

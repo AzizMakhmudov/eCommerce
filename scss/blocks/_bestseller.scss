@@ -1,0 +1,146 @@
+.first-box__bestseller {
+  background-image: url(/img/Vector.png);
+  width: 432px;
+  height: 610px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+
+.btn-bestseller {
+  @include btn;
+  padding: 12px 100px;
+}
+
+.h2-bestseller {
+  @include title-categories;
+  font-size: 50px;
+  letter-spacing: 0.01em;
+  line-height: 107.9%;
+  margin-bottom: 25px;
+  width: 573px;
+}
+
+.text-box__bestseller {
+  margin-left: 96px;
+  position: absolute;
+  top: 225px;
+}
+
+.btn-bestseller:hover {
+  background-color: rgb(12, 12, 56);
+}
+
+.first-diffuser {
+  position: relative;
+}
+
+.diffuser-content {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  border-radius: 0px 20px;
+  width: 380px;
+  height: 91px;
+  margin-top: -100px;
+  padding-left: 15px;
+  padding-top: 13px;
+}
+
+.img-diffuser {
+  border-radius: 0px 20px;
+}
+
+.diffuser-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price {
+  padding: 2px 15px;
+  background-color: $primary-color-green;
+  border-radius: 15px;
+  color: $primary-color-white;
+}
+
+.btn-market {
+  background: none;
+  border: none;
+  margin-top: -10px;
+}
+
+.diffuser-market {
+  display: flex;
+  align-items: center;
+  gap: 61px;
+}
+
+.h4-diffuser {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #1f2937;
+}
+
+.market-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #6b7280;
+  width: 239px;
+}
+
+.second-diffuser {
+  position: relative;
+}
+
+.diffuser-content__2 {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(25px);
+  border-radius: 0px 20px;
+  width: 380px;
+  height: 91px;
+  margin-top: -100px;
+  padding-left: 15px;
+  padding-top: 13px;
+}
+
+.bestseller-section {
+  display: flex;
+  align-items: center;
+  gap: 244px;
+}
+
+.second_box-bestseller {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.dot-link {
+  background: #9ca3af;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.first-dot {
+  background-color: $primary-color-green;
+}
+
+.ul-dot {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 950px;
+  margin-top: -70px;
+  margin-bottom: 111px;
+}
+
+.dot-link:hover {
+  background-color: $primary-color-green;
+}

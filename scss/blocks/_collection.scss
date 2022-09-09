@@ -1,0 +1,57 @@
+.collection-section {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  margin-bottom: 150px;
+  @media (max-width: $desktop) {
+    gap: 0;
+  }
+}
+
+.first-box__collection {
+  background-image: url(/img/Blob.png);
+  background-repeat: no-repeat;
+  width: 737px;
+  height: 709px;
+  background-size: contain;
+}
+
+.toutem-img {
+  margin-top: 125px;
+  margin-left: 77px;
+}
+
+.h2-collection {
+  @include title-categories;
+  font-size: 50px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 107.9%;
+  width: 573px;
+  text-align: right;
+}
+
+.info-collection {
+  @include paragraph;
+  width: 374px;
+  margin-bottom: 33px;
+  text-align: right;
+  margin-left: 150px;
+}
+
+.collection-btn {
+  @include btn;
+  margin-left: 250px;
+}
+
+.collection-btn:hover {
+  background-color: rgb(12, 12, 56);
+}
+
+.second-box__collection {
+  @media (max-width: $desktop) {
+    margin-left: -250px;
+  }
+}
