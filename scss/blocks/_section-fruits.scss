@@ -1,6 +1,10 @@
 .box-title {
   padding-left: 100px;
   margin-top: -100px;
+  @media (max-width: $mobile) {
+    margin-top: 250px;
+    margin-left: 120px;
+  }
 }
 
 .title-h2 {
@@ -9,11 +13,17 @@
   line-height: 89.84%;
   width: 450px;
   margin-bottom: 38px;
+  @media (max-width: $mobile) {
+    text-align: center;
+  }
 }
 
 .title-paragraph {
   @include paragraph;
   width: 385px;
+  @media (max-width: $mobile) {
+    text-align: center;
+  }
 }
 
 .box-fruits {
@@ -30,6 +40,13 @@
   @media (max-width: $tablet) {
     width: 500px;
     height: 500px;
+  }
+  @media (max-width: $mobile) {
+    width: 400px;
+    height: 400px;
+    margin-left: -450px;
+    background-image: url(/img/mobile-ellipse.png);
+    margin-top: -500px;
   }
 }
 
@@ -50,5 +67,17 @@
   @media (max-width: $tablet) {
     top: 140px;
     left: -25px;
+  }
+  @media (max-width: $mobile) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    border: 0;
+    padding: 0;
+    margin: -1px;
   }
 }

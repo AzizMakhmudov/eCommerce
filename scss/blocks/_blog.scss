@@ -8,7 +8,11 @@
   top: -100px;
   @media (max-width: $tablet) {
     margin-top: 131px;
-    margin-left: -225px;
+    margin-left: -265px;
+  }
+  @media (max-width: $mobile) {
+    margin-left: -290px;
+    margin-top: 200px;
   }
 }
 
@@ -31,6 +35,9 @@
     width: 371px;
     height: 667px;
     margin-bottom: 72px;
+  }
+  @media (max-width: $mobile) {
+    margin-left: 10px;
   }
 }
 
@@ -103,9 +110,13 @@
   margin-left: 139px;
   margin-bottom: 71px;
   @media (max-width: $desktop) {
-    margin-left: 77px;
+    margin-left: 150px;
   }
   @media (max-width: $tablet) {
     flex-direction: column;
+    left: -50px;
+  }
+  @media (max-width: $mobile) {
+    margin-top: 400px;
   }
 }

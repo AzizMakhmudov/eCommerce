@@ -20,6 +20,22 @@
   @media (max-width: $desktop) {
     margin-left: 300px;
   }
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  border: 0;
+  padding: 0;
+  margin: -1px;
 }
 
 .header__link--box {
@@ -27,12 +43,52 @@
   align-items: center;
   gap: 472px;
   @media (max-width: $desktop) {
-    gap: 310px;
+    gap: 350px;
   }
   @media (max-width: $tablet) {
     margin-left: -156px;
-    gap: 222px;
+    gap: 210px;
   }
+  @media (max-width: $mobile) {
+    transform: translateX(-210%);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    left: 0;
+  }
+}
+
+.menu-hamburger {
+  @media (max-width: $mobile) {
+    &::after,
+    &::before {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 25px;
+      background-color: black;
+      margin: 8px 0;
+    }
+    width: 25px;
+    height: 2px;
+    display: block;
+    background-color: black;
+    margin-top: -15px;
+    margin-left: 500px;
+  }
+}
+
+.market-search {
+  @media (max-width: $mobile) {
+    margin-top: 150px;
+    margin-left: -260px;
+  }
+}
+
+input[type="checkbox"]:checked + .header__link--box {
+  transition: 3s ease;
+  transform: translateX(220%);
 }
 
 .header-box {

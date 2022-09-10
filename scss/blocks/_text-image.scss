@@ -14,6 +14,12 @@
     width: 834px;
     margin-top: 100px;
   }
+  @media (max-width: $mobile) {
+    background-image: url(/img/text-image-mobile.png);
+    height: 720px;
+    width: 768px;
+    margin-top: 400px;
+  }
 }
 
 .shop-all__btn {
@@ -50,6 +56,9 @@
     width: 356px;
     font-size: 38px;
   }
+  @media (max-width: $mobile) {
+    width: 374px;
+  }
 }
 
 .shop__all--box {
@@ -63,6 +72,10 @@
     padding-bottom: 105px;
     padding-right: 115px;
   }
+  @media (max-width: $mobile) {
+    margin-top: 100px;
+    margin-left: 150px;
+  }
 }
 
 .right-side {
@@ -74,5 +87,17 @@
     width: 400px;
     height: 523px;
     object-fit: cover;
+  }
+  @media (max-width: $mobile) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    border: 0;
+    padding: 0;
+    margin: -1px;
   }
 }

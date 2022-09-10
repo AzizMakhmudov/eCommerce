@@ -4,10 +4,14 @@
   padding-left: 176px;
   margin-bottom: 150px;
   @media (max-width: $desktop) {
-    padding-left: 0;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   @media (max-width: $tablet) {
     flex-direction: column;
+  }
+  @media (max-width: $mobile) {
+    margin-left: 100px;
   }
 }
 

@@ -24,14 +24,17 @@
   left: 94px;
   @media (max-width: $tablet) {
     text-align: center;
-    margin-left: 77px;
+    margin-left: 40px;
     margin-top: -140px;
+  }
+  @media (max-width: $mobile) {
+    margin-left: -250px;
   }
 }
 
 .trends-boxes {
   position: absolute;
-  left: 570px;
+  left: 525px;
   bottom: 350px;
   @media (max-width: $desktop) {
     left: 424px;
@@ -55,7 +58,7 @@
   align-items: center;
   gap: 5.44px;
   margin-top: 300px;
-  margin-left: 385px;
+  margin-left: 340px;
   @media (max-width: $desktop) {
     margin-left: 155px;
   }
@@ -63,6 +66,10 @@
     position: absolute;
     top: 700px;
     left: 250px;
+  }
+  @media (max-width: $mobile) {
+    top: 1180px;
+    margin-left: 135px;
   }
 }
 

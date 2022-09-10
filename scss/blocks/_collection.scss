@@ -21,6 +21,14 @@
     width: 500px;
     height: 500px;
   }
+  @media (max-width: $mobile) {
+    background-image: url(/img/toutem-image-mobile.png);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-top: -80px;
+    margin-left: 250px;
+  }
 }
 
 .toutem-img {
@@ -31,6 +39,18 @@
     height: 356px;
     position: absolute;
     top: -50px;
+  }
+  @media (max-width: $mobile) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    border: 0;
+    padding: 0;
+    margin: -1px;
   }
 }
 
@@ -44,9 +64,17 @@
   line-height: 107.9%;
   width: 573px;
   text-align: right;
+  margin-left: -40px;
   @media (max-width: $tablet) {
     font-size: 30px;
-    margin-left: 50px;
+    margin-left: 55px;
+  }
+  @media (max-width: $desktop) {
+    margin-left: 100px;
+  }
+  @media (max-width: $mobile) {
+    text-align: center;
+    margin-left: 250px;
   }
 }
 
@@ -57,7 +85,15 @@
   text-align: right;
   margin-left: 150px;
   @media (max-width: $tablet) {
-    margin-left: 240px;
+    margin-left: 250px;
+  }
+  @media (max-width: $desktop) {
+    margin-left: 290px;
+  }
+  @media (max-width: $mobile) {
+    text-align: center;
+    margin-left: 430px;
+    width: 263px;
   }
 }
 
@@ -67,6 +103,12 @@
   @media (max-width: $tablet) {
     margin-left: 350px;
   }
+  @media (max-width: $desktop) {
+    margin-left: 400px;
+  }
+  @media (max-width: $mobile) {
+    margin-left: 420px;
+  }
 }
 
 .collection-btn:hover {
@@ -74,7 +116,13 @@
 }
 
 .second-box__collection {
+  margin-left: -80px;
   @media (max-width: $desktop) {
     margin-left: -300px;
+  }
+  @media (max-width: $mobile) {
+    position: absolute;
+    top: 350px;
+    left: 250px;
   }
 }
