@@ -21,6 +21,9 @@
 .btn-bestseller {
   @include btn;
   padding: 12px 100px;
+  @media (max-width: $tablet) {
+    display: inline-block;
+  }
 }
 
 .h2-bestseller {
